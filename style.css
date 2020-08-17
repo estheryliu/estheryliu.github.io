@@ -1,0 +1,71 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 25%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15%;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 0px 30px 10px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+  }
+  
+  h1{
+    margin: 30px;
+    padding: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f09328;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 30px;}
+    .sidenav {font-size: 16px;}
+  }
+
+/* Page Content: Images Grid */ 
+.images-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.container-image {
+  max-width: 100%;
+  height: auto;
+}
+
+  /* Page Content: Formatting */
+  body {
+    font-family: "Quicksand", sans-serif;
+    margin-left: 25%;
+    margin-right: 0%;
+  }
+
+  h2 {
+    margin: 30px;
+    padding: 10px;
+  }
+
+  .youtube-video{
+    margin: 30px;
+    padding: 10px;
+  }
+
